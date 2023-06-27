@@ -25,7 +25,7 @@ export default {
   css: ["~/assets/scss/global.scss"],
   components: true,
   router: {
-    base: '/financial-match',
+    base: '/financialmatch/',
     mode: 'history',
     extendRoutes(routes, resolve) {
       routes.push({
